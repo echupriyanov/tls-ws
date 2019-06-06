@@ -1,0 +1,12 @@
+[package]
+name = "tls-ws"
+version = "0.1.0"
+authors = ["Eugene Chupriyanov <tchu@tchu.ru>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.1"
+tokio = "0.1"
+websocket = "0.22"
+native-tls = "0.2"
+openssl = "0.10"
